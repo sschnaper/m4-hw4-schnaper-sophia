@@ -18,6 +18,7 @@ body {
 
 section p {
     text-align: left;
+    font-size: 18px;
 }
 
 .row::after {
@@ -43,7 +44,7 @@ h1 {
     font-size: 64px;
     font-family: 'Orchis Prima', sans-serif;
     font-weight: 400;
-    text-align:
+    text-align: center
 }
 
 h2 {
@@ -89,9 +90,9 @@ a:hover, a:active, button:hover {
     background-color: transparent;
     color: #cf4520;
     border-color: transparent;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Orchis Prima', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .row > h2, #albums {
