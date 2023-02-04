@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/orchis-prima');
+                
+header {
+    font-family: 'Orchis Prima', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color:#cf4520;
+}
+
+body {
+    background-color: rgb(247, 243, 224);
+    color: #cf4520;
+    font-family: 'Orchis Prima', sans-serif;
+    font-weight: 300;
+    max-width: 900px;
+    margin: auto;
+}
+
+section p {
+    text-align: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10x;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Orchis Prima', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Orchis Prima', sans-serif;
+    text-align: left;
+}
+
+figcaption {
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+nav {
+    text-align: center;
+    color: #cf4520;
+    font-size: 16px;
+}
+
+a:link, a:visited {
+    background-color: transparent;
+    color: #cf4520;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active, button:hover {
+    background-color: #cf4520;
+    color:rgb(247, 243, 224);
+}
+
+.learn {
+    background-color: transparent;
+    color: #cf4520;
+    border-color: transparent;
+    font-size: 16px;
+    font-family: 'Orchis Prima', sans-serif;
+    font-weight: 400;
+}
+
+.row > h2, #albums {
+    display: inline-block; 
+    float: left;
+}
+
+.footer {
+    font-family: 'Orchis Prima', sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin-top:20px
+}
